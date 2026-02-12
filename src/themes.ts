@@ -1,0 +1,58 @@
+import type { Theme } from './types';
+
+export const themes: Record<string, Theme> = {
+  ocean: {
+    name: 'Ocean',
+    primary: '#0ea5e9',
+    secondary: '#06b6d4',
+    accent: '#3b82f6',
+    background: '#0f172a',
+    surface: '#1e293b',
+    text: '#f1f5f9',
+  },
+  sunset: {
+    name: 'Sunset',
+    primary: '#f59e0b',
+    secondary: '#ef4444',
+    accent: '#ec4899',
+    background: '#1c1917',
+    surface: '#292524',
+    text: '#fafaf9',
+  },
+  forest: {
+    name: 'Forest',
+    primary: '#10b981',
+    secondary: '#059669',
+    accent: '#34d399',
+    background: '#064e3b',
+    surface: '#065f46',
+    text: '#ecfdf5',
+  },
+  lavender: {
+    name: 'Lavender',
+    primary: '#a855f7',
+    secondary: '#8b5cf6',
+    accent: '#c084fc',
+    background: '#1e1b4b',
+    surface: '#312e81',
+    text: '#f5f3ff',
+  },
+  light: {
+    name: 'Light',
+    primary: '#3b82f6',
+    secondary: '#6366f1',
+    accent: '#8b5cf6',
+    background: '#ffffff',
+    surface: '#f8fafc',
+    text: '#0f172a',
+  },
+  dark: {
+    name: 'Dark',
+    primary: '#60a5fa',
+    secondary: '#818cf8',
+    accent: '#a78bfa',
+    background: '#0f172a',
+    surface: '#1e293b',
+    text: '#f1f5f9',
+  },
+};
